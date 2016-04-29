@@ -4,5 +4,5 @@
 '/bootstrap':projection(hello(Place)::'/bootstrap':statement,'/bootstrap':horiz(['/bootstrap':label(!'hello,'),'/bootstrap':vis(Place::place)])).
 hello(world).
 '/bootstrap':defAtom(america::place).
-'/bootstrap':projection(america::place,'/bootstrap':label(!'America')).
+'/bootstrap':projection(america::place,'/bootstrap':label(!'America1')).
 hello(america).
