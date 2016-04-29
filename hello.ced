@@ -1,0 +1,8 @@
+'/bootstrap':defAtom(place::'/bootstrap':type).
+'/bootstrap':defAtom(world::place).
+'/bootstrap':signature(hello(Place)::'/bootstrap':statement,[Place::place]).
+'/bootstrap':projection(hello(Place)::'/bootstrap':statement,'/bootstrap':horiz(['/bootstrap':label(!'hello,'),'/bootstrap':vis(Place::place)])).
+hello(world).
+'/bootstrap':defAtom(america::place).
+'/bootstrap':projection(america::place,'/bootstrap':label(!'America')).
+hello(america).
